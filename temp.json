@@ -1,0 +1,50 @@
+{
+    "admin": {},
+    "autoAdd": true,
+    "autoJoin": true,
+    "autoLeave": false,
+    "autoRead": false,
+    "blacklist": {},
+    "bot": {
+        "u0dd0ddd809554b751fb24f3cb9cc5f29": true,
+        "u66d5413f4332af3d5e32653f0f0f207f": true,
+        "u79a964a3d276f8a5a10ab9b04c13d508": true,
+        "ud2340800b45ebe00cfc702ae0f4ba256": true,
+        "uf329782bdc71bec9259d80e2b6975341": true
+    },
+    "cc": {},
+    "checkSticker": {},
+    "contact": false,
+    "detectMention": false,
+    "gm": {
+        "c91a8060b289ef07e0d4e0f6aeac7fe41": {}
+    },
+    "inviteprotect": {
+        "c91a8060b289ef07e0d4e0f6aeac7fe41": "c91a8060b289ef07e0d4e0f6aeac7fe41"
+    },
+    "keyCommand": "",
+    "lang": "JP",
+    "limit": {
+        "u79a964a3d276f8a5a10ab9b04c13d508": {
+            "stick": {},
+            "text": {
+                "react": true,
+                "\u6210\u529f\u65b0\u589eblacklist\nMID : u663e2bfd447da72d0cc8f3f1648d1762": 1
+            }
+        },
+        "ub809d1621e65e5defd74e9e61b1b51b4": {
+            "stick": {},
+            "text": {
+                "react": true,
+                "ubm u663e2bfd447da72d0cc8f3f1648d1762": 1
+            }
+        }
+    },
+    "protect": {},
+    "qrprotect": {},
+    "react": {},
+    "reread": {},
+    "sr": {},
+    "timeline": true,
+    "wel": {}
+}

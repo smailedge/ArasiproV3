@@ -1,0 +1,18 @@
+
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] [WinError 10051] 通訊端操作嘗試連線到一個無法連線的網路。
+[<module 'time' (built-in)>] TalkException(code=99, reason='group key is not registered', parameterMap={})
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] TalkException(code=99, reason='group key is not registered', parameterMap={})
+[<module 'time' (built-in)>] TalkException(code=99, reason='group key is not registered', parameterMap={})
+[<module 'time' (built-in)>] TalkException(code=99, reason='group key is not registered', parameterMap={})
+[<module 'time' (built-in)>] TalkException(code=99, reason='group key is not registered', parameterMap={})
+[<module 'time' (built-in)>] 'LINE' object has no attribute 'write'
+[<module 'time' (built-in)>] 'c91a8060b289ef07e0d4e0f6aeac7fe41'
+[<module 'time' (built-in)>] 'ubm'
