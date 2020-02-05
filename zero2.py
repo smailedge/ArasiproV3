@@ -9,19 +9,19 @@ from gtts import gTTS
 from googletrans import Translator
 
 botStart = time.time()
-cl = LINE("guugkrci@resmail24.com","djry9420")
+cl = LINE("dwvs1106@gmail.com","qwaszx9910425")
 cl.log("Auth Token : " + str(cl.authToken))
 print ("====機器壹登入成功====")
-kl = LINE("debjmxr@hideemail.net","djry9420")
+kl = LINE("abc8806191@outlook.com","qwaszx9910425")
 kl.log("Auth Token : " + str(kl.authToken))
 print ("====機器貳登入成功====")
-sb = LINE("qityofan@itymail.com","djry9420")
+sb = LINE("abc9910425@outlook.com","qwaszx9910425")
 sb.log("Auth Token : " + str(kl.authToken))
 print ("====機器參登入成功====")
-kt = LINE("bmstpmf@hide-mail.net","djry9420")
+kt = LINE("bianyuan0628@outlook.com","qwaszx9910425")
 kt.log("Auth Token : " + str(kl.authToken))
 print ("====機器肆登入成功====")
-sa = LINE("engkzsuny@ymail365.com","djry9420")
+sa = LINE("abc660619@outlook.com","qwaszx9910425")
 sa.log("Auth Token : " + str(kl.authToken))
 print ("====機器伍登入成功====")
 
@@ -60,7 +60,7 @@ myProfile["statusMessage"] = clProfile.statusMessage
 myProfile["pictureStatus"] = clProfile.pictureStatus
 msg_dict = {}
 bl = [""]
-god = ["ub809d1621e65e5defd74e9e61b1b51b4"]
+god = ["ub6f9d53713c5869f0d78e71febe13837"]
 
 #==========================================================================================#
 def cTime_to_datetime(unixtime):
@@ -179,7 +179,7 @@ def lineBot(op):
                 cl.findAndAddContactsByMid(op.param1)
                 cl.sendMessage(op.param1, "安安！{} 感謝您加我為好友！".format(str(contact.displayName)))
                 cl.sendMessage(op.param1, "咱是由Arasi所開發的ArasiproV3\n此機器為防翻機器人如有需要!!!!\n對防翻機器有興趣者可以私以下友資購買")
-                cl.sendContact(op.param1, "ub809d1621e65e5defd74e9e61b1b51b4")
+                cl.sendContact(op.param1, "ub6f9d53713c5869f0d78e71febe13837")
         if op.type == 24:
             print ("[ 24 ] 通知離開副本")
             if settings["autoLeave"] == True:
@@ -211,7 +211,7 @@ def lineBot(op):
                 if settings["autoJoin"] == True:
                     cl.acceptGroupInvitation(op.param1)
                     cl.sendMessage(op.param1, "歡迎使用由Arasi開發的ArasiproV3!!!\nMy creator:")
-                    cl.sendContact(op.param1, "ub809d1621e65e5defd74e9e61b1b51b4")
+                    cl.sendContact(op.param1, "ub6f9d53713c5869f0d78e71febe13837")
                     if group.preventedJoinByTicket == True:
                         group.preventedJoinByTicket = False
                         cl.updateGroup(group)
@@ -237,7 +237,7 @@ def lineBot(op):
                             cl.sendContact(op.param1, GS)
                     except:
                         cl.sendMessage(op.param1, "[ERROR]\n設置GM權限失敗!!!!\n請尋找作者幫忙")
-                        cl.sendContact(op.param1, "ub809d1621e65e5defd74e9e61b1b51b4")
+                        cl.sendContact(op.param1, "ub6f9d53713c5869f0d78e71febe13837")
             elif op.param1 not in settings["inviteprotect"]:
                 if op.param2 not in settings['admin'] and op.param2 not in settings['bot'] and op.param2 not in settings['gm'][op.param1]:
                     cl.sendMessage(op.param1, "群組邀請保護開啟中!!!!")
@@ -946,7 +946,7 @@ def lineBot(op):
                             helpMessage = helpmessage()
                             cl.sendMessage(to, str(helpMessage))
                             cl.sendMessage(to, "我的作者")
-                            cl.sendContact(to, "ub809d1621e65e5defd74e9e61b1b51b4")
+                            cl.sendContact(to, "ub6f9d53713c5869f0d78e71febe13837")
                     elif text.lower() == 'test':
                         cl.sendMessage(to, "運行中......")
                         kl.sendMessage(to, "運行中......")
@@ -1010,7 +1010,7 @@ def lineBot(op):
                     elif text.lower() == 'about':
                         try:
                             arr = []
-                            owner = "ub809d1621e65e5defd74e9e61b1b51b4"
+                            owner = "ub6f9d53713c5869f0d78e71febe13837"
                             creator = cl.getContact(owner)
                             contact = cl.getContact(clMID)
                             group = cl.getGroup(to)
@@ -1367,7 +1367,7 @@ def lineBot(op):
                                     sendMessageWithMention(to, contact.mid)
                                     cl.sendMessage(to, "安安你好,我是防翻機器人,有事請找主人")
                                     time.sleep(0.5)
-                                    cl.sendContact(op.param1, "ub809d1621e65e5defd74e9e61b1b51b4")
+                                    cl.sendContact(op.param1, "ub6f9d53713c5869f0d78e71febe13837")
                                 break
         if op.type == 55:
             print ("[ 55 ] 通知讀取消息")
